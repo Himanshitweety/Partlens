@@ -1,1 +1,19 @@
+# Core
+numpy
+pandas
 
+# Scanner (choose one stack once you decide — see src/scanner/classifier.py)
+# torch
+# torchvision
+# or: tensorflow
+
+# API layer
+fastapi
+uvicorn
+pydantic
+
+# Agent layer (LLM calls)
+anthropic
+
+# Testing
+pytest
