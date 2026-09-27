@@ -29,7 +29,7 @@ Photo → Scanner (CV model) → identified component + specs
 
 - **Deterministic core** (scanner inference, inventory CRUD, combination math) does the actual work and is fully testable without any API calls.
 - **Agent layer** sits on top and is the only place that talks to an LLM — it takes structured output (candidate substitutions, component metadata) and turns it into an explanation or comparison. This keeps the "AI agent" part honest: it's doing reasoning/explanation over real structured data, not standing in for logic it should own.
-
+building
 ## Project structure
 
 ```
