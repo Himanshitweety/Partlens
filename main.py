@@ -18,11 +18,4 @@ Rough endpoint shape to implement once the modules above exist:
 TODO(you): implement once scanner/inventory/solver/agent stubs are filled in.
 """
 
-from fastapi import FastAPI
 
-app = FastAPI(title="partlens")
-
-
-@app.get("/health")
-def health():
-    return {"status": "ok"}
