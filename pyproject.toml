@@ -1,0 +1,21 @@
+[project]
+name = "partlens"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Himanshi Singh", email = "himanshitwettysingh@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.141.1",
+    "opencv-python>=5.0.0.93",
+    "uvicorn>=0.54.0",
+]
+
+[project.scripts]
+partlens = "partlens:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
